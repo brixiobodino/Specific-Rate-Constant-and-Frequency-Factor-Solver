@@ -1,1 +1,290 @@
 
+   @font-face{
+            font-family:Segoe UI;
+            src:url("fonts/Segoe UI.TTF");
+        }
+        html,body{
+            width: 100%;
+            height: 100%;
+        }
+        .header{
+            width: 100%;
+            height: 100px;
+            background: #263238;
+            margin-left: -8px;
+            margin-top: -10px;
+        }
+        .logo{
+            float: left;
+            top: 40px;
+            left: 10px;
+            margin-top: 30px;
+        }
+        .name{
+            float: left;
+            color: white;
+            font-size: 24px;
+            font-family:Segoe UI;
+            margin-top: 33px;
+        }
+        .top_nav{
+            position: absolute;
+            right: 20px;
+            top: 40px;
+        }
+        .top_nav button{
+            border: none;
+            background: transparent;
+            font-size: 16px;
+            outline: none;
+        }
+        .fa-home{
+            color: white;
+            margin-right: 15px;
+            font-size: 30px;
+        }
+        .fa-info-circle{
+             color: white;
+            margin-right: 15px;
+            font-size: 30px;
+        }
+        .fa-lightbulb{
+             color: white;
+            margin-right: 15px;
+            font-size: 30px;
+        }
+        .fa-file-archive{
+             color: white;
+            margin-right: 15px;
+            font-size: 30px;
+        }
+        .content{
+            float:left;
+            background: white;
+            width: 100%;
+            height: 100%;
+           margin-left: -8px;
+            /*overflow: auto;*/
+           
+         
+          
+        }
+        .content_option{
+            width: 100%;
+            height: 140px;
+            margin-top: 130px;
+            
+            padding-left: 40px;
+        }
+        .option{
+            width: 17%;
+            height: 100%;
+            float: left;
+            background: rgb(38, 50, 56);
+            margin: 0 auto;
+            margin-right: 2%;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 1.2vw;
+
+        }
+        #option_title,#option_title1{
+            font-family: 'Proxima Nova', Georgia, sans-serif;
+            color:#E0E0E0;
+            text-align: center;
+        }
+        #first{
+            margin-left: 0%;
+        }
+        .fa-box{
+            font-size: 70px;
+            margin-top: 30px;
+            color:#E0E0E0;
+        }
+        .fa-long-arrow-alt-right,.fa-long-arrow-alt-left{
+            font-size: 45px;
+            margin-top: 50px;
+            color:#E0E0E0;
+        }
+        .fa-bolt{
+            font-size: 70px;
+            margin-top: 30px;
+            color:#E0E0E0;
+        }
+        .fa-calculator{
+            font-size: 70px;
+            margin-top: 30px;
+            color:#E0E0E0;
+        }
+        .option .fa-chart-line{
+            font-size: 70px;
+            margin-top: 30px;
+            color:#E0E0E0;
+        }
+        .solver{
+            width: 100%;
+            height: auto;
+            float: left;
+            margin-left: 20px;
+            color: black;
+            font-family:Segoe UI;
+        }
+        .solver_title{
+            text-align: center;
+            color: black;
+            font-weight: 700;
+        }
+        .reaction_btn{
+            background: ;
+            height: auto;
+            margin: 0 auto;
+            margin-top: -40px;
+        }
+        #first_reaction,#second_reaction,#third_reaction,#fourth_reaction{
+            border: none;
+            background: #263238;
+            padding: 10px;
+            margin-bottom: 30px;
+            font-family:Segoe UI;
+            color:white;
+            font-size: 16px;
+            outline: none; 
+            margin-right: 10px;
+        }
+
+        .arrhenius{
+            font-weight: 400;
+            display: none;
+            font-family: 'Proxima Nova', Georgia, sans-serif;
+            color: rgb(80,80,80);
+        }
+        .arrhenius{
+            text-align: justify;
+            text-indent: 50px;
+            line-height: 30px;
+            font-size: 18px;
+        }
+        table{
+            width: 47%;
+         
+            border-collapse: collapse;
+            padding: 10px;
+            margin-right: 10px;
+            border-left: none;
+            border-right: none;
+            border-bottom: none;
+        }
+        th{
+            text-align: center;
+            padding: 10px;
+            color:black;
+            letter-spacing: 1px;
+            font-weight: 400;
+        }
+        tr,td{
+            border: 1px solid #B0BEC5; 
+            border-collapse: collapse;
+            text-align: center;
+            color:rgb(80,80,80); 
+            border-left: none;
+
+            border-bottom: none;
+        }
+        td{
+         margin-left: -50px;
+         padding:10px;
+     }
+     #given_title{
+       /* background: #039BE5;*/
+        color: rgb(80,80,80);
+     }
+     #temperature,#temperature2,#temperature3{
+        margin-bottom: 10px;
+        width: 300px;
+        padding: 5px;
+     }
+     #a_value,#a_si_value,#a_value2,#a_si_value2,#a_value3,#a_si_value3{
+        color: rgb(202, 12, 48);
+        font-weight: 700;
+     }
+     #k_value,#k_si_value,#k_value2,#k_si_value2,#k_value3,#k_si_value3{
+        color: rgb(28, 129, 217);
+        font-weight: 700;
+     }
+     #temp,#temp2,#temp3{
+        font-weight: 700;
+        color:black;
+     }
+     .hvr-icon-push{
+        
+     }
+     td{
+       font-size: 15px;
+
+     }
+     .temp_wrap,.temp_wrap2{
+        width: 100%;
+      
+     }
+    
+     #lights_on{
+        color: #FFA726;
+     }
+     a{
+        text-decoration: none;
+     }
+     #dataset{
+        width: 30%;
+        margin-top: 20px;
+        margin-left: 20px;
+         border: none;
+        float: left;
+         font-size: 13px;
+         margin-bottom: 20px;
+     }
+     #dataset th{
+         font-family:Segoe UI;
+       
+           font-size: 13px;
+     }
+     #dataset td{
+        width: 25%; 
+         font-size: 13px;
+      
+          font-family:Segoe UI;
+          padding:5px;
+     }
+     #dataset tr{
+       
+         font-size: 13px;
+     }
+     #dataset_title{
+        background: #9575CD;
+       
+     }
+     #dataset_title th{
+         color:white;
+         
+     }
+     #back_btn:hover{
+        text-decoration: underline;
+     }
+    a.canvasjs-chart-credit{
+      color:red;
+     }
+     .visual{
+        width: 130px;
+        background:rgb(206, 206, 206) ;
+        height: 20px;
+        padding:10px;
+        font-family: 'Proxima Nova', Georgia, sans-serif;
+        margin-left: 10px;
+        float: left;
+        margin-top: 10px;
+     }
+     
+     .visual:hover{
+      background: rgb(80,80,80);
+      color: white;
+      cursor: pointer;
+     }
