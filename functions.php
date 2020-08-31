@@ -126,7 +126,7 @@
             
         </div>
         <div id="first_reaction_table" >
-            <table style="float: left;width: 96%;margin-bottom: 20px;box-shadow: 5px 5px 25px gray;" class="animated fadeInRightBig">
+            <table style="float: left;width: 96%;margin-bottom: 20px;box-shadow: 5px 5px 25px gray;" class="animate__animated animate__fadeInRightBig">
                 <tr>
                     <th colspan="4" style="background: rgb(30, 136, 229);color:white;">Collision Theory</th>
                 </tr>
@@ -158,7 +158,7 @@
                     <td id="delta" style="font-weight: 700;color:black;"></td>
                 </tr>
             </table>
-            <table style="float: left;width: 96%;margin-bottom: 20px;box-shadow: 5px 5px 25px gray" class="animated fadeInUpBig">
+            <table style="float: left;width: 96%;margin-bottom: 20px;box-shadow: 5px 5px 25px gray" class="animate__animated animate__fadeInUpBig">
                 <tr style="background: rgb(173, 153, 86);">
                     <th></th>
                     <th id='given_title' style="color:white;font-weight: 400;">CGS Unit(cm<sup>3</sup>/gmol s)</th>
@@ -290,7 +290,7 @@
                 
             </div>
 		<div id="second_reaction_table"  >
-            <table style="float: left;width: 96%;margin-bottom: 20px;box-shadow: 5px 5px 25px gray;" class="animated fadeInRightBig">
+            <table style="float: left;width: 96%;margin-bottom: 20px;box-shadow: 5px 5px 25px gray;" class="animate__animated animate__fadeInRightBig">
                 <tr>
                     <th colspan="4" style="background: rgb(30, 136, 229);color:white;">Collision Theory</th>
                 </tr>
@@ -320,7 +320,7 @@
                     <td id='as' style="font-weight:700;color:black; "></td>
                 </tr>
             </table>
-            <table style="float: left;width: 96%;margin-bottom: 20px;box-shadow: 5px 5px 25px gray" class="animated fadeInUpBig">
+            <table style="float: left;width: 96%;margin-bottom: 20px;box-shadow: 5px 5px 25px gray" class="animate__animated animate__fadeInUpBig">
                 <tr style="background: rgb(173, 153, 86);">
                     <th></th>
                     <th  id='given_title' style="color:white;font-weight: 400;"> CGS Unit(cm<sup>3</sup>/gmol s) </th>
@@ -436,7 +436,7 @@
                     
             </div>
 			<div id="third_reaction_table"  class="animated scaleIn">
-            <table style="float: left;width: 96%;margin-bottom: 20px;box-shadow: 5px 5px 25px gray;border:none;" class="animated fadeInRightBig" >
+            <table style="float: left;width: 96%;margin-bottom: 20px;box-shadow: 5px 5px 25px gray;border:none;" class="animate__animated animate__fadeInRightBig" >
                 <tr style="background: rgb(30, 136, 229);">
                     <th colspan="4" style="border-top: none;color:white;">Collision Theory</th>
                 </tr>
@@ -472,7 +472,7 @@
                     <td id='as_value3_2' style="font-weight:700;color:black; "></td>
                 </tr>
             </table>
-            <table style="float: left;width: 96%;margin-bottom: 20px;box-shadow: 5px 5px 25px gray;border:none;" class="animated fadeInUpBig" >
+            <table style="float: left;width: 96%;margin-bottom: 20px;box-shadow: 5px 5px 25px gray;border:none;" class="animate__animated animate__fadeInUpBig" >
                 <tr style="background: rgb(173, 153, 86);">
                     <th></th>
                     <th  id='given_title' style="color:white;"> CGS Unit(cm<sup>3</sup>/gmol s</th>
@@ -1173,7 +1173,7 @@
             
         </div>
         <div id="first_reaction_table" >
-            <table style="float: left;width: 96%;margin-bottom: 20px;box-shadow: 5px 5px 25px gray;" class="animated fadeInRightBig">
+            <table style="float: left;width: 96%;margin-bottom: 20px;box-shadow: 5px 5px 25px gray;" class="animate__animated animate__fadeInRightBig">
                 <tr>
                     <th colspan="4" style="background: rgb(30, 136, 229);color:white;">Collision Theory</th>
                 </tr>
@@ -1207,7 +1207,7 @@
                     <td id="delta" style="font-weight: 700;color:black;"></td>
                 </tr>
             </table>
-            <table style="float: left;width: 96%;margin-bottom: 20px;box-shadow: 5px 5px 25px gray" class="animated fadeInUpBig">
+            <table style="float: left;width: 96%;margin-bottom: 20px;box-shadow: 5px 5px 25px gray" class="animate__animated animate__fadeInUpBig">
                 <tr style="background: rgb(173, 153, 86);">
                     <th></th>
                     <th id='given_title' style="color:white;font-weight: 400;">CGS Unit(cm<sup>3</sup>/gmol s)</th>
